@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/KodluyoruzJAVA/FromGitHomeworkTemplate/JavaBootCamp-HW3/src/main</OriginalElement>
+  <nodes>
+    <node x="1044.0" y="281.5">com.kodluyoruz.HW3.productAndCategory.Categorys.CategorysBuilder</node>
+    <node x="0.0" y="1381.0">com.kodluyoruz.HW3.paymentMethods.PaymentFactory</node>
+    <node x="1265.0" y="1381.0">com.kodluyoruz.HW3.Hw3Application</node>
+    <node x="818.25" y="890.0">com.kodluyoruz.HW3.paymentMethods.CreditCart</node>
+    <node x="448.5" y="482.0">com.kodluyoruz.HW3.cartsAndBills.CartItem.CartItemBuilder</node>
+    <node x="145.25" y="1084.0">com.kodluyoruz.HW3.cartsAndBills.Cart</node>
+    <node x="1235.0" y="762.0">com.kodluyoruz.HW3.discounts.DiscountMethod</node>
+    <node x="47.0" y="528.5">com.kodluyoruz.HW3.cartsAndBills.Bill.BillBuilder</node>
+    <node x="606.0" y="901.5">com.kodluyoruz.HW3.paymentMethods.Cash</node>
+    <node x="0.0" y="0.0">com.kodluyoruz.HW3.cartsAndBills.Bill</node>
+    <node x="1460.25" y="1085.75">com.kodluyoruz.HW3.paymentMethods.enums.PaymentType</node>
+    <node x="-247.5" y="1084.0">com.kodluyoruz.HW3.Main2Hw3</node>
+    <node x="706.0" y="1381.0">com.kodluyoruz.HW3.surcharges.DeliveryFee</node>
+    <node x="448.0" y="0.0">com.kodluyoruz.HW3.cartsAndBills.CartItem</node>
+    <node x="730.0" y="0.0">com.kodluyoruz.HW3.productAndCategory.Product</node>
+    <node x="1161.0" y="1085.75">com.kodluyoruz.HW3.properties.PaymentProperties</node>
+    <node x="1331.5" y="890.0">com.kodluyoruz.HW3.discounts.PercentageDiscount</node>
+    <node x="380.0" y="1381.0">com.kodluyoruz.HW3.discounts.DiscountStrategy</node>
+    <node x="740.75" y="761.0">com.kodluyoruz.HW3.paymentMethods.PaymentMethods</node>
+    <node x="1108.5" y="901.5">com.kodluyoruz.HW3.discounts.Buy2Take3Discount</node>
+    <node x="743.5" y="350.0">com.kodluyoruz.HW3.productAndCategory.Product.ProductBuilder</node>
+    <node x="1028.0" y="1381.0">com.kodluyoruz.HW3.GeneralConfigrations</node>
+    <node x="531.0" y="1084.0">com.kodluyoruz.HW3.properties.DeliveryFeeProperties</node>
+    <node x="865.75" y="1085.75">com.kodluyoruz.HW3.properties.DiscountProperties</node>
+    <node x="1093.0" y="0.0">com.kodluyoruz.HW3.productAndCategory.Categorys</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kodluyoruz.HW3.productAndCategory.Categorys.CategorysBuilder" target="com.kodluyoruz.HW3.productAndCategory.Categorys" relationship="INNER_CLASS">
+      <point x="0.0" y="-95.0" />
+      <point x="1188.0" y="160.0" />
+      <point x="1200.5" y="160.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.paymentMethods.Cash" target="com.kodluyoruz.HW3.paymentMethods.PaymentMethods" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="693.0" y="865.0" />
+      <point x="827.75" y="865.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.productAndCategory.Product.ProductBuilder" target="com.kodluyoruz.HW3.productAndCategory.Product" relationship="INNER_CLASS">
+      <point x="0.0" y="-139.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.discounts.Buy2Take3Discount" target="com.kodluyoruz.HW3.discounts.DiscountMethod" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="1210.0" y="865.0" />
+      <point x="1336.5" y="865.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.cartsAndBills.CartItem.CartItemBuilder" target="com.kodluyoruz.HW3.cartsAndBills.CartItem" relationship="INNER_CLASS">
+      <point x="0.0" y="-117.0" />
+      <point x="572.75" y="482.0" />
+      <point x="572.75" y="355.0" />
+      <point x="0.0" y="150.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.discounts.PercentageDiscount" target="com.kodluyoruz.HW3.discounts.DiscountMethod" relationship="REALIZATION">
+      <point x="0.0" y="-62.0" />
+      <point x="1463.0" y="865.0" />
+      <point x="1336.5" y="865.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.cartsAndBills.Bill.BillBuilder" target="com.kodluyoruz.HW3.cartsAndBills.Bill" relationship="INNER_CLASS">
+      <point x="0.0" y="-205.0" />
+      <point x="174.0" y="319.5" />
+      <point x="201.5" y="319.5" />
+      <point x="0.0" y="128.0" />
+    </edge>
+    <edge source="com.kodluyoruz.HW3.paymentMethods.CreditCart" target="com.kodluyoruz.HW3.paymentMethods.PaymentMethods" relationship="REALIZATION">
+      <point x="0.0" y="-62.5" />
+      <point x="944.25" y="865.0" />
+      <point x="827.75" y="865.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4" showDependencies="false" x="958.0" y="912.0" />
+  <SelectedNodes>
+    <node>com.kodluyoruz.HW3.paymentMethods.CreditCart</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

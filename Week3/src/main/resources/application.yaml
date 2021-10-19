@@ -1,0 +1,38 @@
+spring:
+  profiles:
+    active: prod
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+delivery-fee:
+  delivery-fee: 5.0
+  delivery-fee-limit: 100.0
+
+discount:
+  percentage: 20.0
+
+payment-properties:
+  commission: 8.0
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+delivery-fee:
+  delivery-fee: 2.0
+  delivery-fee-limit: 50.0
+
+discount:
+  percentage: 15.0
+
+payment-properties:
+  commission: 2.0
+
+
+
