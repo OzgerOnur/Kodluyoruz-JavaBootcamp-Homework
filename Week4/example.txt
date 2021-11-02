@@ -1,0 +1,38 @@
+@startuml
+actor       Actor       as user
+participant Category    as c
+participant Product     as p
+participant User        as u
+participant Basket      as b
+participant Checkout    as ch
+participant Order       as o
+database    Database    as db
+
+user -> c : create category as Main (no parent)
+c -> db : create category
+c -> user : created category 1
+user -> c : create a new Category with parent category 1
+c -> db : create category
+c -> user: created category 2
+user -> p : create product with related category 2
+p -> db: create product
+p -> user: created product 1
+user -> u: create user
+u -> db: create user 1
+u -> user: created user 1
+user -> b: add basketItem 1 to user 1 basket
+b -> db: add basketItem 1 to user 1 basket
+b -> user: return basket info
+user -> ch: get checkout for user 1
+ch -> db: get basket
+ch -> user: return checkout based on basket
+user -> ch: complete checkout for user 1
+ch -> db: create order based on basket for user 1 and flag that basket
+ch -> user: return order info
+user -> o: get orders for user 1
+o -> db: get orders for user 1
+o -> user: return orders
+user -> o: get order by orderId
+o -> db: find by id
+o -> user: return order info
+@enduml
